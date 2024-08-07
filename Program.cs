@@ -12,7 +12,7 @@ namespace BasicKetmaKetlik3
             Console.WriteLine(primeOrNot.IdentifyPrimeOrNot());
 
             Console.WriteLine("\n_____________ Task2 _____________");
-            Console.WriteLine("Bo'luvchisiz sonlar!");
+            Console.WriteLine("Bo'luvchisiz sonlar(Divisors)!");
             Divisors divisors = new Divisors();
             divisors.FindDivisors(); 
 
@@ -23,7 +23,7 @@ namespace BasicKetmaKetlik3
 
             Console.WriteLine("\n_____________ Task4 _____________");
             Console.WriteLine("Calculate the sum of a collection of expenses!");
-            Harajatlar harajatlar = new Harajatlar();
+            CollectionOfExpenses harajatlar = new CollectionOfExpenses();
             Console.WriteLine("Total Expenses: " + harajatlar.CalculateExpenses());
 
             Console.WriteLine("\n_____________ Task5 _____________");
