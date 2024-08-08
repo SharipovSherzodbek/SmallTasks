@@ -1,1 +1,1 @@
-# SmallTasks from MohirDev
+# Bassic Ketma Ketlik Task #3
